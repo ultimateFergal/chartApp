@@ -1,0 +1,12 @@
+<iframe 
+    class="iframe-class" 
+    id="inlineFrameExample" 
+    #iframe 
+    (load)="myLoadEvent()" 
+    title="Inline Frame Example" 
+    scrolling="yes" 
+    [height]="iframeHeight + iframeHeight*0.03"
+    [width]="iframeWidth + iframeWidth*0.03"
+    [src]="srcUrl | safeUrl"
+    style="border-style: none;">
+</iframe>

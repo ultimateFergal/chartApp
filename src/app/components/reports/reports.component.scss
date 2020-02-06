@@ -1,0 +1,34 @@
+.chart-tab-content {
+    /* align-items: center; */
+    /* justify-content: center; */
+    text-align: center;
+    margin: 16px;
+    padding: 16px;
+    border-radius: 8px;
+}
+
+.example-headers-align .mat-expansion-panel-header-title,
+.example-headers-align .mat-expansion-panel-header-description {
+  flex-basis: 0;
+}
+
+.example-headers-align .mat-expansion-panel-header-description {
+    justify-content: space-between;
+    align-items: center;
+}
+
+.mat-card-tab {
+    margin: 1%;
+    display:flex; 
+    flex-direction: column; 
+    align-items: center;
+}
+
+.expansion-header-tab {
+    /* background-color: #ff4081; */
+    padding: 2%;
+}
+
+.mat-expansion-panel-body {
+    margin-top: 20% !important;
+}

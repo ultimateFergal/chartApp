@@ -1,0 +1,62 @@
+[
+    {
+        "type": "Comprension",
+        "title": "Información de interés",
+        "info": "La serie de tiempo es estacional.</p> <p>La periodicidad es de cada 5 horas. Una serie posee un componente estacional cuando se puede comprobar que en un número de periodos dados, se repite un comportamiento. La periodicidad hace referencia al número de periodos en los que se cumple un ciclo del componente estacional.</p> <p>[WARNING] Se evidencia coeficiente de variación del 86.15 % de los datos en la serie de tiempo, se recomienda hacer una transformación de datos, por medio del método de 'ajuste del coeficiente de variación'. Esto hace referencia al nivel de dispersión de los datos, lo más común es medir esta dispersión con respecto a la media de los mismos.</p> <p>La serie de tiempo no es estacionaria. Se dice que una serie de tiempo es estacionaria cuando esta tiene una media constante (x̄) y una varianza (σ2) menor a infinito, esto quiere decir, que una serie de tiempo estacionaria es aquella que tiene un comportamiento constante a lo largo del tiempo.",
+        "reports": [
+                        {
+                            "title": "Comprension",
+                            "description": "Comprensi\u00f3n de datos"
+                        },
+                        {
+                            "title": "Resumen estadístico descriptivo",
+                            "description": "Tabla resumen de estadística descriptiva de cada una de las variables que hacen parte del dataset, la cual muestra información clave para el análisis de los datos como lo es su coeficiente de variación, rangos para identificación de outliers y demás elementos claves para un correcto análisis de la data."
+                        },
+                        {
+                            "title": "Análisis de pérdida de información",
+                            "description": "Está gráfica representa la cantidad de datos que se consideran pérdidas (NAS) o con espacios en blanco, las barras en negro representan la cantidad de datos existentes, las barras en blanco, la cantidad de datos perdidos. Esto quiere decir que entre mayor sea el área blanca en cada columna, mayor será el porcentaje de datos perdidos."
+                        },
+                        {
+                            "title": "Correlación",
+                            "description": "La matriz de correlación indica el nivel de asociación entre dos variables, un valor alto de correlación indica que las variables tienen un alto nivel de asociación o de correlación lineal."
+                        },
+                        {
+                            "title": "Rango intercuartil, mediana y outliers",
+                            "description": "La gráfica de cajas y bigotes representa las características principales de los datos como  la mediana, el rango intercuantil, datos atípicos (outliers), y el primer y tercer cuantil. El gráfico muestra una caja central, cuyos bordes corresponden al primer y tercer cuantil (o bigotes), la mediana que es la línea que atraviesa la caja y una serie de puntos, que corresponden a las observaciones atípicas o outliers."
+                        },
+                        {
+                            "title": "Histograma",
+                            "description": "El histograma muestra la frecuencia de un valor dentro de una muestra de datos, es decir, entre mas alta sea la barra del histograma más frecuente es esa observación o rango de observaciones. Este gráfico es usado para identificar la distribución de probabilidad que mejor representa las observaciones."
+                        },
+                        {
+                            "title": "Función autocorrelación - ACF",
+                            "description": "La función autocorrelación muestra cuál es la dependencia de una observación con las observaciones anteriores, esta permite identificar si una serie de tiempo sigue un proceso estacionario, tiene un componente estacional o sigue un proceso aleatorio."
+                        },
+                        {
+                            "title": "Función autocorrelación parcial - PACF",
+                            "description": "La función autocorrelación parcial muestra cual es la dependencia de una observación con las observaciones anteriores dado el valor de esas observaciones. La gráfica de esta función permite identificar si una serie de tiempo sigue un proceso estacionario, tiene un componente estacional o es un proceso aleatorio."
+                        },
+                        {
+                            "title": "Densidad",
+                            "description": "La gráfica de densidad es una forma suavizada del histograma, sirve como una aproximación de la posible función de probabilidad que gobierna el conjunto de datos."
+                        },
+                        {
+                            "title": "Descomposición",
+                            "description": "Toda serie de tiempo de tiene tres componentes, un componente de tendencia, uno estacional y uno aleatorio. Esta gráfica permite visualizar estos tres componentes por separado. En la estacionalidad se revisa si los valores son relativamente pequeños se puede depreciar su efecto y no tenerlo en cuenta, en la tendencia se observa si esta es positiva, negativa o constante y por último se observa los residuales de la serie, que corresponde a la información que no puede ser explicada por los dos componentes anteriores."
+                        },
+                        {
+                            "title": "Filtro Holdrick",
+                            "description": "El método de filtración de Holdrick-Prescolt permite extraer la tendencia y la estacionalidad de una serie de tiempo. Esto lo hace ajustando un modelo donde se ajusta la tendencia, los valores que se encuentren fuera de los valores estimados, se considera que es estacionalidad."
+                        },
+                        {
+                            "title": "Serie de tiempo, media y desviaciones estandar",
+                            "description": "Se dice que se tiene una serie de tiempo cuando una variable se mide en relación con alguna medida de tiempo, de tal forma que en un eje del gráfico se tenga el tiempo y en el otro el valor de la variable. Por medio de esta se puede establecer si la variable crece con el tiempo, o decrece, si se evidencia que tiene un comportamiento que se repite a lo largo de un periodo de tiempo dado, o si la variable se mueve de forma aleatoria. Adicionalmente, está gráfica muestra la desviación estándar de la variable y su media, las bandas a dos desviaciones estándar pueden ser usadas para identificar outliers."
+                        }
+                    ]
+    },
+    {
+        "type": "Seleccion",
+        "title": "Selección de modelos",
+        "info": "El modelo que mejor se ajusta a los datos es Model_SARIMAX con un error de 19.0 %"
+    }  
+]
