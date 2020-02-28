@@ -14,7 +14,7 @@ export class ReportsComponent implements OnInit  {
   iframeWidth;
   reports;
   errorMessage = '';
-  info = '';
+  info: any;
 
   constructor( private reporstService: ReportsService, ) {
   }

@@ -4,6 +4,7 @@ import { Observable, throwError } from 'rxjs';
 import { catchError, tap, map } from 'rxjs/operators';
 
 import { IReport } from '../models/report';
+import { IText } from '../models/text';
 
 @Injectable({
   providedIn: 'root'
@@ -25,8 +26,8 @@ export class ReportsService {
       );
   }
 
-  getText(): Observable<any> {
-    return this.http.get<IReport[]>(this.textUrl)
+  getText(): Observable<IText[]> {
+    return this.http.get<IText[]>(this.textUrl)
       .pipe(
         // tap(data => console.log('All: ' + JSON.stringify(data))),
         catchError(this.handleError)

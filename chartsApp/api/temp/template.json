@@ -1,0 +1,33 @@
+{
+    "Reportes": [
+        {
+            "Tipo": "Comprension",
+            "Encabezado": "Comprensi\u00f3n de datos",
+            "Titulo": "Comprensi\u00f3n de datos",
+            "Mensajes": "<p>La serie de tiempo es estacional.</p> <p>La periodicidad es de cada 5 horas. Una serie posee un componente estacional cuando se puede comprobar que en un n\u00famero de periodos dados, se repite un comportamiento. La periodicidad hace referencia al n\u00famero de periodos en los que se cumple un ciclo del componente estacional.</p> <p>[WARNING] Se evidencia coeficiente de variaci\u00f3n del 86.15 % de los datos en la serie de tiempo, se recomienda hacer una transformaci\u00f3n de datos, por medio del m\u00e9todo de 'ajuste del coeficiente de variaci\u00f3n'. Esto hace referencia al nivel de dispersi\u00f3n de los datos, lo m\u00e1s com\u00fan es medir esta dispersi\u00f3n con respecto a la media de los mismos.</p> <p>La serie de tiempo no es estacionaria. Se dice que una serie de tiempo es estacionaria cuando esta tiene una media constante (x\u0304) y una varianza (\u03c32) menor a infinito, esto quiere decir, que una serie de tiempo estacionaria es aquella que tiene un comportamiento constante a lo largo del tiempo.</p>",
+            "Graficos": [
+                "C:\\temp\\reporte\\re307.html",
+                "C:\\temp\\reporte\\ld377.png",
+                "C:\\temp\\reporte\\mc938.html",
+                "C:\\temp\\reporte\\cb639.png",
+                "C:\\temp\\reporte\\his80.html",
+                "C:\\temp\\reporte\\acf87.html",
+                "C:\\temp\\reporte\\pacf718.html",
+                "C:\\temp\\reporte\\den272.html",
+                "C:\\temp\\reporte\\des489.html",
+                "C:\\temp\\reporte\\fh439.html",
+                "C:\\temp\\reporte\\st132.html"
+            ]
+        },
+        {
+            "Tipo": "Seleccion",
+            "Encabezado": "Selecci\u00f3n de modelos",
+            "Titulo": "Selecci\u00f3n de modelos",
+            "Mensajes": "El modelo que mejor se ajusta a los datos es Model_SARIMAX con un error de 19.0 %",
+            "Graficos": [
+                "C:\\temp\\seleccion_modelo\\aj21.png",
+                "C:\\temp\\seleccion_modelo\\diag901.png"
+            ]
+        }
+    ]
+}
